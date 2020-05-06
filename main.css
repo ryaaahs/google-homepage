@@ -3,32 +3,41 @@
     margin: 200px auto; 
 }
 
-.button {
+.button { 
+    display: block; 
+    margin: 200px auto;
     border-radius: 2px; 
     background-color: #ffb4ad; 
 }
 
+
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    position: fixed;
+    bottom: 0;  
+    padding: 12px 12px 12px 12px;
     width: 100%; 
     background-color: #f1f1f1;
 }
 
 
 li a{ 
-    color: #000;   
+    color: #636360;  
     text-decoration: none; 
 }
 
 li a:hover{ 
-    background-color: #555;
-    color: white;
     text-decoration: underline; 
 }
 
+.nav-link-right{
+    float: right;
+    padding: 0 15px 0 0; 
+    margin-right: 15px;
+}
 
 li {
+    font-size: 12px; 
+    padding: 0 0 0 10px;
     display: inline;
-  }
+}
