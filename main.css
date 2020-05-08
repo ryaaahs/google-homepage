@@ -18,6 +18,22 @@ body{
 
 }
 
+#text-box{
+    position: fixed;
+    top: 26.5%;
+    left: 51%; 
+    width: 450px;
+    height: 35px; 
+    text-align: center; 
+    margin: 73px -240px; 
+    text-align: left;
+    text-indent: 25px;
+    border-radius: 20px;
+    border: solid; 
+    border-width: thin;
+    border-color: gray;
+}
+
 #button-wrapper { 
     margin-top: 360px;
     width: 100%;
@@ -25,8 +41,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    /*background: red;*/  
+     
 }
 
 button{
@@ -105,7 +120,7 @@ li {
     background: #4787ed;
     color: white;
     margin-top: -6px;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 #google-app{ 
@@ -123,5 +138,7 @@ li {
     height: 32px; 
     background: url("black-app.png") no-repeat;
 }
+
+
 
 
