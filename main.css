@@ -8,7 +8,7 @@ body{
 ; 
 }
 
-#box { 
+#google-logo { 
     /*background: red;*/ 
     position: fixed;
     top: 26.5%;
@@ -97,14 +97,31 @@ li {
 }
 
 #sign-in{
-    width: 75px;
-    height: 35px;
+    pointer-events: none;
+    width: 70px;
+    height: 30px;
     border-radius: 2px; 
     float: right;
-    background: blue;
+    background: #4787ed;
     color: white;
-    margin-top: -10px;
+    margin-top: -6px;
     margin-right: 20px;
+}
+
+#google-app{ 
+    float: right;
+    margin-right: 4px; 
+    width: 32px;
+    height: 32px; 
+    background: url("gray-app.png") no-repeat;
+}
+
+#google-app:hover{ 
+    float: right;
+    margin-right: 4px;
+    width: 32px;
+    height: 32px; 
+    background: url("black-app.png") no-repeat;
 }
 
 
